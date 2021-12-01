@@ -3,7 +3,7 @@
     --background-color-1: #F7CAE2; /*backgoround svg*/
     --background-color-2: #FAE4F0; /*item color*/
     --background-color-3: #000000; /*font*/
-    --background-color-4: #226043;
+    /* --background-color-4: #226043; */
     --color-1: #f75078;
     --text-color-1: #8c3854;
     --text-color-1-strong: #63263a;
@@ -24,6 +24,7 @@
       background-image: url(./assets/Vector.svg);
       background-size: contain;
       background-repeat: repeat-y;
+      font-family: poppins;
   }
   
   /*================== Clases Aux ================*/
@@ -36,10 +37,58 @@
   .page-padding {
     padding: 3rem;
   }
+  .bold{
+    font-weight: bolder;
+    
+  }
   
   /*================== Mobile ================*/
   @media (max-width: 375px) {
 
+    /*================== SECTION ================*/
+    /*================== article 1 ================*/
+    .section__article--1{
+      display: flex;
+      flex-direction: column;
+      background-color: var(--background-color-1);
+      border-top-right-radius: 5rem;
+      border-bottom-left-radius: 5rem;
+      position: relative;
+      padding-top: 7rem ;
+      padding-bottom: 7rem ;
+     
+    }
+    .section__article--1--img{
+      width: auto;
+      border-top-right-radius: 5rem;
+      border-bottom-left-radius: 5rem;
+      margin-bottom: 3rem;
+    }
+    .section__article--1--title{
+      font-weight: 500;
+      font-size: 1.5rem;
+      margin: 1.5rem 1rem;
+      text-align: center;
+    }
+    .section__article--1--text{
+      text-align: center;
+      font-size: 1em;
+    }
+    /*================== article 2================*/
+    .section__article--2{
+      position: relative;
+      
+    }
+    .section__article--2--text-1{
+      width: 50%;
+    }
+    .section__article--2--img{
+      width: 300px;
+      position: absolute;
+      top:-10%;
+      right: 0;
+      z-index: 3;
+    }
     /*================== Items Container================*/
     #itemsContainer{
         display: flex;

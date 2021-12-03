@@ -55,7 +55,8 @@
       align-items: center;
       padding-right: 0.8rem;
       padding-left: 0.8rem;
-      height: 100px;
+      height: 100%;
+      margin-top: 1rem;
     }
     .nav__logo {
       font-size: 2rem;
@@ -85,25 +86,31 @@
       flex-direction: column;
       padding: 2rem;
       align-items: center;
+      margin-top: 3rem;
     }
     
+    .header__info--text {
+      margin-top: 1.8rem;
+    }
+
     .header__info--button{
       padding: 20px;
+      margin-top: 20px;
     }
 
     #button {
       background: #F75078;
       box-shadow: 3px 4px 4px rgba(34, 96, 67, 0.25);
-      border-radius: 30px;
-      padding: 5px;
+      border-radius: 40px;
+      padding: 12px;
       color: #FFFFFF;
     }
 
     .header__img {
-      width: 200px;
-      height: 240px;
+      width: 100%;
+      height: 70%;
       margin-top: 1.5rem;
-      border: 1.8px solid rgba(131, 86, 133, 0.685);
+      border: 2.5px solid rgba(131, 86, 133, 0.685);
       border-top-right-radius: 1rem;
       border-bottom-left-radius: 2rem;
     }
@@ -358,7 +365,7 @@
     .footer__text {
       color: #000000;
       font-weight: normal;
-      font-size: 1em;
+      font-size: 0.7em;
       line-height: 24px;
       letter-spacing: -0.231818px;
       opacity: 0.5;

@@ -7,7 +7,7 @@
 	
     <title>Just We | Tu estilo, nuestra pasión</title>
     <meta name="description" content="Somos Just We, tu outfit soñado a un click. Nos dedicamos a vestir a la mujer con indumentaria para toda ocasión. Nuestras colecciones son cuidadosamente seleccionadas para ajustarse a las necesidades más exigentes. Prendas para todas las estaciones y cualquier momento del día. Encargate de vivir y nosotros de vestir. Just We" >
-    <meta name="keywords" content="Just We, just we, Tienda de ropa, Necochea, prendas de mujer, Denim, Remeras, Jeans, Pantalones, Short, Mujer, Moda, Estilo">
+    <meta name="keywords" content="Just We, just we, Tienda de ropa, Jack Smith, Dafiti, Necochea, prendas de mujer, Denim, Remeras, Jeans, Pantalones, Short, Mujer, Moda, Estilo">
 
     <title>Just We</title>
     <link rel="stylesheet" href="style.css" />
@@ -27,7 +27,7 @@
       src="https://kit.fontawesome.com/4e6e7de96a.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./app.js" defer> 
+     <!--<script src="./app.js" defer>--> 
     </script>
   </head>
   <body>
@@ -36,9 +36,9 @@
         <h1 class="nav__logo font-dancing">Just We</h1>
         <div class="nav__links">
           <ul class="menu_items">
-            <li><a href="">Sobre nosotros</a></li>
-            <li><a href="">Nuestro propósito</a></li>
-            <li><a href="">El equipo</a></li>
+            <li><a href="#sobreNosotros">Sobre nosotros</a></li>
+            <li><a href="#nuestroProposito">Nuestro propósito</a></li>
+            <li><a href="#elEquipo">El equipo</a></li>
             <li><a href="#information">Contacto</a></li>
           </ul>
         </div>
@@ -54,8 +54,7 @@
             La moda cambia, el estilo persiste.
           </h2>
           <p class="header__info--text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil
-            quisquam quam et est perspiciatis ipsum.
+            Somos estilo, somos <span class="bold">Just We</span>. De Necochea para Argentina y ahora de Argentina al mundo.
           </p>
           <div class="header__info--button">
             <a id="button">Colección</a>
@@ -71,35 +70,36 @@
       </div>
 
       <section id="section">
-        <article class="section__article--1 page-padding">
+        <article id="sobreNosotros" class="section__article--1 page-padding">
           <img
             class="section__article--1--img"
             src="./assets/young-beautiful-woman-looking-at-camera-trendy-girl-in-casual-summer-white-t-shirt-and-jeans-shorts-in-round-sunglasses-positive-female-shows-facial-emotions-funny-model-isolated-on-blue.jpg"
-            alt=""
+            alt="" loading="lazy"
           />
           <h2 class="section__article--1--title">
-            <span class="bold">La moda</span> se vive dia a dia
+            Creemos que <span class="bold">La moda</span> se vive dia a dia
           </h2>
           <p class="section__article--1--text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            minus, unde quas voluptates ex vero
+            En <span class="bold">Just We</span> tenemos tu outfit soñado a un click. Nos dedicamos a vestir a la mujer con indumentaria para <span class="bold">toda ocasión</span>. Prendas para todas las estaciones y cualquier momento del día. Encargate de vivir y nosotros de vestir.
           </p>
         </article>
-        <article class="section__article--2">
+        <article id="nuestroProposito"  class="section__article--2">
+          <h2 class="section__article--1--title">
+            Fusionamos nuestro <span class="bold">criterio</span> con los gustos de nuestros <span class="bold">clientes</span>
+          </h2>
           <p class="section__article--2--text-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            minus, unde quas voluptates ex vero, asperiores explicabo dolores
-            tempore quae iusto.
+            <span class="bold">Just We</span> nació en Necochea con la idea de estar a tu servicio en cualquier ocasión y en cualqueir lugar. Nuestras colecciones son <span class="bold">cuidadosamente seleccionadas</span>  para ajustarse a las necesidades más exigentes.
           </p>
           <img
             class="section__article--2--img"
             src="./assets/pic-superpuestas-sinfondo.png"
-            alt=""
+            alt="" loading="lazy"
           />
-          <p class="section__article--2--text-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            minus, unde quas voluptates ex vero, asperiores explicabo dolores
-            tempore
+          <h2 class="section__article--1--title">
+            Trabajamos y aprendemos <span class="bold">juntos</span> todos los días
+          </h2>
+          <p id="elEquipo" class="section__article--2--text-2">
+            Nuestro equipo se desafía constantemente desde el día uno para superarse y aprender. Buscamos <span class="bold">dar lo mejor</span> de nosotros para que cada prenda encuentre la personalidad que necesita.
           </p>
         </article>
         <!-- <article class="section__article--3">
@@ -113,7 +113,7 @@
           <img class="section__article--3--img-2" src="#" alt="" />
         </article> -->
       </section>
-
+      <h2 class="section__article--1--title">Nuestras principales marcas</h2>
       <!-- item slider -->
       <div id="itemsContainer">
         <!-- item -->
@@ -123,7 +123,7 @@
             <img
               class="itemsContainer__item--head--img"
               src="./assets/stmarie-logo.jpg"
-              alt="producto "
+              alt="producto" loading="lazy"
             />
           </div>
           <!-- body -->
@@ -146,7 +146,7 @@
             <img
               class="itemsContainer__item--head--img"
               src="./assets/logo-Koxis.png"
-              alt="producto "
+              alt="producto" loading="lazy"
             />
           </div>
           <!-- body -->
@@ -169,7 +169,7 @@
             <img
               class="itemsContainer__item--head--img"
               src="./assets/enriquiana.jpg"
-              alt="producto "
+              alt="producto" loading="lazy"
             />
           </div>
           <!-- body -->
@@ -205,7 +205,7 @@
               </p>
             </div>
             <div class="testimonials__cards--person">
-              <img class="testimonials__cards--person-img" src="./assets/Ellipse 2.png" alt="" />
+              <img class="testimonials__cards--person-img" src="./assets/Ellipse 2.png" alt="" loading="lazy"/>
               <div class="testimonials__cards--person--desc">
                 <h4 class="testimonials__cards--person-name">Maria Antonieta</h4>
                 <h4 class="testimonials__cards--person-profesion">Designer</h4>
@@ -228,7 +228,7 @@
               </p>
             </div>
             <div class="testimonials__cards--person">
-              <img class="testimonials__cards--person-img" src="./assets/Ellipse 2.png" alt="" />
+              <img class="testimonials__cards--person-img" src="./assets/Ellipse 2.png" alt="" loading="lazy"/>
               <div class="testimonials__cards--person--desc">
                 <h4 class="testimonials__cards--person-name">Maria Antonieta</h4>
                 <h4 class="testimonials__cards--person-profesion">Designer</h4>
@@ -251,7 +251,7 @@
               </p>
             </div>
             <div class="testimonials__cards--person">
-              <img class="testimonials__cards--person-img" src="./assets/Ellipse 2.png" alt="" />
+              <img class="testimonials__cards--person-img" src="./assets/Ellipse 2.png" alt="" loading="lazy"/>
               <div class="testimonials__cards--person--desc">
                 <h4 class="testimonials__cards--person-name">Maria Antonieta</h4>
                 <h4 class="testimonials__cards--person-profesion">Designer</h4>
@@ -274,7 +274,7 @@
               </p>
             </div>
             <div class="testimonials__cards--person">
-              <img class="testimonials__cards--person-img" src="./assets/Ellipse 2.png" alt="" />
+              <img class="testimonials__cards--person-img" src="./assets/Ellipse 2.png" alt="" loading="lazy"/>
               <div class="testimonials__cards--person--desc">
                 <h4 class="testimonials__cards--person-name">Maria Antonieta</h4>
                 <h4 class="testimonials__cards--person-profesion">Designer</h4>
@@ -284,8 +284,8 @@
       </div>
       <!-- newsletter -->
       <div id="newsletter" class="page-padding">
-        <img class="newsletter__head--img" src="./assets/pic_06 1.svg" alt="" />
-
+        <img class="newsletter__head--img" src="./assets/pic_06 1.svg" alt="" loading="lazy"  
+        />
         <div class="newsletter__body">
           <h3 class="newsletter__body--title">
             Suscribite a nuestro newsletter
@@ -365,6 +365,7 @@
               <option value="Santiago del Estero">Santiago del Estero</option>
               <option value="Tierra del Fuego">Tierra del Fuego</option>
               <option value="Tucuman">Tucumán</option>
+              <option value="Extranjero">No de Argentina</option>
             </select>
             <input
               class="font-poppins"
@@ -413,8 +414,7 @@
       <footer class="footer page-padding font-poppins">
         <h2 class="font-dancing footer__title">Just We</h2>
         <p class="footer__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt.
+          JUST WE 2021 - COPYRIGHT © - TODOS LOS DERECHOS RESERVADOS.
         </p>
         <div class="footer__linkContainer">
           <a href="#" class="linkContainer__link">Campaings</a>

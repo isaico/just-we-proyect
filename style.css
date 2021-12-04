@@ -463,9 +463,10 @@
           transform: translateY(-0.5rem);
           transition: .2s ease all;
       }
-      #maps {
-          width: auto;
-          margin: auto;
+      .information__map {
+          display: flex;
+          justify-content: center;
+          height: 300px;
           margin-bottom: 2rem;
       }
   }
@@ -879,14 +880,6 @@
       background: #19a0ee;
       transform: translateY(-0.5rem);
       transition: .2s ease all;
-  }
-  #maps {
-      display: flex;
-      align-items: center;
-      width: auto;
-      margin: auto;
-      margin-bottom: 2rem;
-      border: 3px solid rgba(0, 0, 0, 0.253);
   }
 
     /*================== Footer ================*/

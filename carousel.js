@@ -12,13 +12,16 @@ new Glide('.glide',{
           perView: 2
         },
         768: {
-          perView: 1
+          perView: 2,
+          gap:30
         },
         480: {
-          perView: 1
+          perView: 1,
+          gap:20,
         },
         375: {
-          perView: 1
+          perView: 1,
+          gap:20,
         }
     }
 }).mount()

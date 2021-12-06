@@ -229,6 +229,49 @@
       border-bottom-left-radius: 2rem;
       display: none;
     }
+    .glide{
+     margin: 4rem 0;
+    }
+    .glide__slides{
+      /* width: 80%; */
+    }
+    .glide__slide{
+      /* width: 80%; */
+      border-radius: 2rem;
+      padding: 1rem;
+    }
+     /*================== carousel ================*/
+     .glide{
+      margin: 10rem 0;
+      background-color:var(--background-color-2);
+      /* margin: 5rem 0; */
+      padding: 4rem 0;
+      border-radius: 1rem;
+      /* box-shadow: ; */
+      box-shadow: 0px 0px 8px rgb(0 0 0 / 15%)
+      
+    }
+    .glide__slides{
+      display: flex;
+      align-items: center;
+
+    }
+
+    .glide__slide{
+      border-radius: 2rem;
+      /* margin: 1rem */
+    }
+    .glide__arrow{
+      /* color:var(--background-color-1); */
+      border: 3px solid rgba(255, 255, 255, 0.787);
+    }
+    .glide__bullet{
+      background-color: rgba(128, 128, 128, 0.815);
+    }
+    .glide__bullet--active{
+      background-color: rgb(214, 214, 214);
+      border: 1px solid rgb(105, 105, 105);
+    }
 
     /*================== SECTION ================*/
      /*================== article 1 ================*/
@@ -268,7 +311,9 @@
       font-size: 1.7rem;
       color: var(--text-color-1-strong);
       text-align:  center ;
-      font-weight: 500;
+      font-weight: bold;
+      margin:3rem
+     
     }
 
     .section__article--2 > p{
@@ -418,7 +463,7 @@
       filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.15));
     }
     .newsletter__title{
-      font-size: 1em;
+      font-size: 1.5em;
       font-weight: 500;
       margin: 1rem;
       color:var(--text-color-1);
@@ -488,7 +533,7 @@
     /* steped */
     .footer__title {
       font-weight: bold;
-      font-size: 1.5em;
+      font-size: 2em;
       width: 100%;
     }
     .footer__text {
@@ -715,6 +760,38 @@
       border-bottom-left-radius: 0.8rem;
       
     }  
+     /*================== carousel ================*/
+     .glide{
+      margin: 10rem 0;
+      background-color:var(--background-color-2);
+      /* margin: 5rem 0; */
+      padding: 4rem 0;
+      border-radius: 1rem;
+      /* box-shadow: ; */
+      box-shadow: 0px 0px 8px rgb(0 0 0 / 15%)
+      
+    }
+    .glide__slides{
+      display: flex;
+      align-items: center;
+
+    }
+
+    .glide__slide{
+      border-radius: 1rem;
+      margin: 1rem
+    }
+    .glide__arrow{
+      /* color:var(--background-color-1); */
+      border: 3px solid rgba(255, 255, 255, 0.787);
+    }
+    .glide__bullet{
+      background-color: rgba(128, 128, 128, 0.815);
+    }
+    .glide__bullet--active{
+      background-color: rgb(214, 214, 214);
+      border: 1px solid rgb(105, 105, 105);
+    }
     /*================== SECTION ================*/
     /*================== article 1 ================*/
     .section__article--1{
@@ -1231,6 +1308,9 @@
       background-color:var(--background-color-2);
       /* margin: 5rem 0; */
       padding: 4rem 0;
+      border-radius: 1rem;
+      /* box-shadow: ; */
+      box-shadow: 0px 0px 8px rgb(0 0 0 / 15%)
       
     }
     .glide__slides{
@@ -1241,6 +1321,7 @@
 
     .glide__slide{
       border-radius: 1rem;
+      margin: 1rem
     }
     .glide__arrow{
       /* color:var(--background-color-1); */
@@ -1368,7 +1449,7 @@
         background-color: var(--background-color-2);
         border-radius: 5px;
         box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
-        width: 250px;
+        width: 350px;
     }
     .itemsContainer__item--head{
         display: flex;
@@ -1376,7 +1457,7 @@
         padding: 1rem;
     }
     .itemsContainer__item--head--img{
-        width: 230px;
+        width: 310px;
         object-fit: contain;
         /* padding: .5rem; */
         border-radius: 5px;
@@ -1384,7 +1465,7 @@
     .itemsContainer__item--body{
         display: flex;
         justify-content: space-between;
-        margin: 0 1.5rem 1.5rem 1.5rem;
+        margin: 2rem 2rem;
     }
 
     .itemsContainer__item--body--text-title{
@@ -1489,7 +1570,7 @@
   }
   .newsletter__title{
 
-    font-size: 1.7em;
+    font-size: 2em;
     font-weight: 500;
     margin: 5rem;
     color:var(--text-color-1);

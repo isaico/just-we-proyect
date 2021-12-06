@@ -1,10 +1,31 @@
-addEventListener('DOMContentLoaded', () => {
-    const btn_menu = document.querySelector('.btn_menu')
-    if (btn_menu) {
-        btn_menu.addEventListener('click', () => {
-            const menu_items = document.querySelector('.menu_items')
-            menu_items.classList.toggle('show')
-        })
-    }
+
+// selector
+const menu = document.querySelector('.burger');
+const links = document.querySelectorAll(".nav__link")
+const menuBurger = document.querySelector( ".menu-burger" )
+// metodo
+function toggleMenu (event) {
+   if(event.target && !event.target.classList.contains("is-active")){
+       this.classList.toggle('is-active');
+       menuBurger.classList.toggle("is_active");
+   } 
+  event.preventDefault();
+  
 }
-)
+console.log(links)
+links.forEach(link =>{
+    link.addEventListener("click",function(e){
+        console.log("click a link")
+        if(link){
+            this.classList.toggle('is-active');
+            menuBurger.classList.toggle("is_active");
+        }
+        
+    })
+})
+
+
+// evento
+menu.addEventListener('click', toggleMenu, false);
+
+

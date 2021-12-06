@@ -50,7 +50,7 @@
   
   
   /*================== Mobile ================*/
-  @media (max-width: 400px) {
+  @media (max-width: 450px) {
     /*================== Burger ================*/
     .burger{
       position:fixed;
@@ -613,7 +613,7 @@
   }
   
   /*==================================  TABLETS ================================*/
-  @media (min-width: 400px) and (max-width:768px) {
+  @media (min-width: 450px) and (max-width:768px) {
    /*================== Nav ================*/
    #nav{
     display: flex;
@@ -654,15 +654,15 @@
   transition: 0.3s ease all;
   } 
     /*================== Header ================*/
-    header,nav{
-      background-color:var(--background-color-2);
-    }
-    .header__bg--bottom{
-      height: 20vh;
-      clip-path: polygon(0 0, 100% 0%, 100% 0%, 0% 100%);
-      background-color: var(--background-color-2);
-    
-    }
+      header,nav{
+        background-color:var(--background-color-2);
+      }
+      .header__bg--bottom{
+        height: 20vh;
+        clip-path: polygon(0 0, 100% 0%, 100% 0%, 0% 100%);
+        background-color: var(--background-color-2);
+      
+      }
     header {
       display: flex;
       justify-content: space-around;

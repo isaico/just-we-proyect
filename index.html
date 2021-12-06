@@ -75,7 +75,9 @@
           <img class="header__img" src="assets/heather-ford-5gkYsrH_ebY-unsplash.png" alt="Prenda femenina" />
         
       </header>
-      
+      <div class="header__bg--bottom">
+
+      </div>
       <div id="video" class="page-padding">
         <video src=""></video>
       </div>
@@ -104,24 +106,27 @@
           <p data-aos="fade-left" data-aos-duration="800" data-aos-offset="500" data-aos-once="true" class="section__article--2--text-1">
             <span class="bold">Just We</span> nació en Necochea con la idea de estar a tu servicio en cualquier ocasión y en cualqueir lugar. Nuestras colecciones son <span class="bold">cuidadosamente seleccionadas</span>  para ajustarse a las necesidades más exigentes.
           </p>
-          <img
-            class="section__article--2--img"
-            src="./assets/pic-superpuestas-sinfondo.png"
-            alt="" loading="lazy"
-          />
-          <h2 data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" data-aos-once="true" class="section__article--2--title page-padding">
-            Trabajamos y aprendemos <span class="bold">juntos</span> todos los días
-          </h2>
+
+          <div class="section-helper">
+            <img
+              class="section__article--2--img"
+              src="./assets/pic-superpuestas-sinfondo.png"
+              alt="" loading="lazy"
+            />       
+            <h2 data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" data-aos-once="true" class="section__article--2--title page-padding"id="section__article--2-title-2">
+              Trabajamos y aprendemos <span class="bold">juntos</span> todos los días
+            </h2>
+          </div>
           <p data-aos="fade-right" data-aos-duration="800" data-aos-delay="300" data-aos-once="true"  id="elEquipo" class="section__article--2--text-2">
             Nuestro equipo se desafía constantemente desde el día uno para superarse y aprender. Buscamos <span class="bold">dar lo mejor</span> de nosotros para que cada prenda encuentre la personalidad que necesita.
           </p>
         </article>
         
       </section>
-      <h2 data-aos="flip-down" data-aos-duration="900" data-aos-delay="500" data-aos-once="true"  class="section__article--1--title">Nuestras principales marcas</h2>
       <!-- item slider -->
+      <h2 data-aos="flip-down" data-aos-duration="900" data-aos-delay="500" data-aos-once="true"  class="section__article--2--title" id="items__title">Nuestras principales marcas</h2>
       <div data-aos="zoom-out-up" data-aos-duration="800" data-aos-offset="500" data-aos-once="true" id="itemsContainer">
-         
+        
         
         <!-- item -->
         <div class="itemsContainer__item">
@@ -290,12 +295,16 @@
       </div>
       <!-- newsletter -->
       <div id="newsletter" class="page-padding">
+        <h3 class="newsletter__title">
+          Recibe toda la info de nuestras promos y nuevos productos directo en tu casilla!
+        </h3>
         <img class="newsletter__head--img" src="./assets/pic_06 1.svg" alt="" loading="lazy"  
         />
         <div class="newsletter__body">
           <h3 class="newsletter__body--title">
             Suscribite a nuestro newsletter
           </h3>
+        
         <div class="newsletter__body--input-container">
             <label class="newsletter__body--label" for="newsletter__input">
               suscribir </label>
@@ -306,20 +315,12 @@
               type="email"
             />
         </div>
-          <!-- <button class="newsletter__body--button">suscribe</button> -->
+        
         </div>
-      </div>
-      <!-- texto -->
-      <div id="personalInformation" class="page-padding">
-        <p class="personalInformation__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          perspiciatis est dolor iusto fugiat quasi esse adipisci, laborum,
-          aspernatur tenetur iure ab quia ipsam animi odio aut, natus voluptates
-          numquam?
-        </p>
       </div>
       <!-- informacion form/mapa-->
       <div id="information">
+       
         <div class="information__form" id="contacto">
           <form
             class="font-poppins"
@@ -398,6 +399,7 @@
          
         </div>
         <div class="information__map">
+          <h3 class="information__map--title">Ubicacion</h3>
           <iframe
             class="information__map--iframe"
             id="maps"
@@ -405,11 +407,7 @@
           ></iframe>
         </div>
       </div>
-      <div id="smallText" class="page-padding">
-        <p class="smallText__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, est?
-        </p>
-      </div>
+      
       <!-- footer -->
       <footer class="footer page-padding font-poppins">
         <h2 class="font-dancing footer__title">Just We</h2>

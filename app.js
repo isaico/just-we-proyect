@@ -1,4 +1,4 @@
-
+// Menu Burger
 // selector
 const menu = document.querySelector('.burger');
 const links = document.querySelectorAll(".nav__link")
@@ -28,4 +28,15 @@ links.forEach(link =>{
 // evento
 menu.addEventListener('click', toggleMenu, false);
 
-
+//Scroll
+window.onscroll = function() {
+    var y = window.scrollY;
+    var  nav = document.querySelector("#nav")
+    var  flag 
+    if( y > 0){
+        flag = true
+    }else{
+        flag = false        
+    }
+    flag ? nav.classList.add("nav-scrolled") : nav.classList.remove("nav-scrolled")
+};

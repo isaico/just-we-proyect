@@ -140,9 +140,6 @@
 
         </div>
 
-        
-     
-
       <section id="section">
         <article id="sobreNosotros" class="section__article--1 page-padding">
           <img
@@ -150,13 +147,12 @@
             class="section__article--1--img"
             src="./assets/young-beautiful-woman-looking-at-camera-trendy-girl-in-casual-summer-white-t-shirt-and-jeans-shorts-in-round-sunglasses-positive-female-shows-facial-emotions-funny-model-isolated-on-blue.jpg"
             alt=""
-            loading="lazy"
           />
           <div class="section__article--1--textContainer">
-            <h2 data-aos="fade-down" data-aos-duration="900" data-aos-delay="300" data-aos-once="true" class="section__article--1--title">
+            <h2 data-aos="fade-down" data-aos-duration="900" data-aos-delay="200" data-aos-once="true" class="section__article--1--title">
               Creemos que <span class="bold">la moda</span> se vive dia a dia
             </h2>
-            <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true" class="section__article--1--text">
+            <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" class="section__article--1--text">
               En <span class="bold">Just We</span> tenemos tu outfit soñado a un click. Nos dedicamos a vestir a la mujer con indumentaria para <span class="bold">toda ocasión</span>. Prendas para todas las estaciones y cualquier momento del día. Encargate de vivir y nosotros de vestir.
             </p>
           </div>
@@ -388,29 +384,39 @@
           Recibe toda la info de nuestras promos y nuevos productos directo en
           tu casilla!
         </h3>
-        <img
-          class="newsletter__head--img"
-          src="./assets/pic_06 1.svg"
-          alt=""
-          loading="lazy"
-        />
-        <div class="newsletter__body">
+        <form  
+          action=""
+          method="POST" 
+          enctype="multipart/form-data" 
+          class="newsletter__body">
+          <img
+            class="newsletter__head--img"
+            src="./assets/pic_06 1.svg"
+            alt=""
+            loading="lazy"
+          />
+          
           <h3 class="newsletter__body--title">
             Suscribite a nuestro newsletter
           </h3>
-
-          <div class="newsletter__body--input-container">
-            <label class="newsletter__body--label" for="newsletter__input">
-              suscribir
-            </label>
+          <div class="newsletter__inputs">
+          <input
+            id="newsletter__input"
+            class="newsletter__body--input font-poppins"
+            type="email"
+            name="email"
+            placeholder="Ejemplo@gmail.com"
+            maxlength="100"
+          />
+          <div id="newsletter__body--label"> 
             <input
-              id="newsletter__input"
-              class="newsletter__body--input"
-              placeholder="Tu e-mail"
-              type="email"
+              class="form-boton-suscribir font-poppins"
+              type="submit"
+              value="Suscribir"
             />
           </div>
-        </div>
+          </div> 
+        </form>
       </div>
       <!-- informacion form/mapa-->
       <div id="information">
@@ -500,7 +506,10 @@
           ></iframe>
         </div>
       </div>
-
+      <!-- Boton Wapp -->
+      <a href="https://api.whatsapp.com/send?phone=5491138238407" class="button__wapp" target="_blank">
+        <i class="fa fa-whatsapp my float"></i>
+      </a>
       <!-- footer -->
       <footer class="footer page-padding font-poppins">
         <h2 class="font-dancing footer__title">Just We</h2>

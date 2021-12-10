@@ -47,24 +47,6 @@
     font-weight: bolder;
   }
  
-  /*================== Boton Wapp ================*/
-  /* .button__wapp{
-    position: fixed;
-    width: 55px;
-    height: 52px;
-    bottom: 70px;
-    right: 10px;
-    background-color:#F75078;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 34px;
-    box-shadow: 2px 2px 4px #999;
-    z-index: 6;
-    transition: background-color .2s ease;
-  }
-   */
-
   /*================== Mobile ================*/
   @media (max-width: 490px) {
     /*================== Burger ================*/
@@ -168,6 +150,9 @@
       color:#333;
     }
     /*================== Nav ================*/
+    .nav__h1{
+      text-decoration: none;
+    }
     header{
       padding-top: 135px !important;
     }
@@ -698,6 +683,9 @@
      display: none;
      /* position: absolute; */
    }
+   .nav__h1{
+    text-decoration: none;
+  }
    header{
     padding-top: 135px !important;
   }
@@ -1262,6 +1250,9 @@
     /*================== Nav ================*/
     .burger{
       display: none;
+    }
+    .nav__h1{
+      text-decoration: none;
     }
     header{
       padding-top: 135px !important;

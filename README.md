@@ -2,7 +2,7 @@
 Landing page de una tienda de indumentaria femenina 
 
 ## Visita el sitio aqui:
-https://vercel.com/isaico/just-we/4t4sdpSBdpkR9xNC2456PcXkXhkw
+[https://just-we-73dum16ls-isaico.vercel.app]
 
 ## Grupo de trabajo
 El proyecto conto con 4 miembros para su realizacion 
